@@ -1,3 +1,5 @@
+package adapter.task_2;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
