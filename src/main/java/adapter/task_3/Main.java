@@ -5,7 +5,7 @@ public class Main {
         DataBase database = new DataBase();
         Authorization authorization = new Authorization();
         if (authorization.log_in(database)) {
-            ReportBuilder br = new ReportBuilder(database);
+            ReportBuilder builder = new ReportBuilder(database);
         }
     }
 }
