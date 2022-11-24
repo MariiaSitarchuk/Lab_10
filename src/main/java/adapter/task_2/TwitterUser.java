@@ -3,10 +3,16 @@ package adapter.task_2;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+import java.time.LocalDate;
+
+enum Country {
+    Ukraine, USA, Poland;
+}
+
 @Getter
 @AllArgsConstructor
 public class TwitterUser {
     private String userMail;
-    private String country;
-    private String lastActiveTime;
+    private Country country;
+    private LocalDate lastActiveTime;
 }
