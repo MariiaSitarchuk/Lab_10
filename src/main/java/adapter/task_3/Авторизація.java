@@ -1,8 +1,8 @@
 package adapter.task_3;
 
-public class Авторизація {
-    public boolean авторизуватися(БазаДаних db) {
-        db.отриматиДаніКористувача();
+public class Authorization  {
+    public boolean log_in(Database database) {
+        database.getUserInfo();
         return true;
     }
 }
